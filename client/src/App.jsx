@@ -17,7 +17,7 @@ export default function App() {
   const [roomId, setRoomId] = useState("");
 
   const { isConnected, sendMessage, addMessageListener } = useWebSocket(
-    "ws://pollroom.onrender.com/"
+    "wss://pollroom.onrender.com"
   );
 
   useEffect(() => {
