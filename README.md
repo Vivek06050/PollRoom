@@ -55,7 +55,7 @@ PollRoom/
 
 Login Page
 
-![Login Page](client/public/login.png)
+![Login Page](client/public/Login.png)
 
 Poll View
 
