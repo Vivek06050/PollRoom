@@ -1,8 +1,10 @@
-**# 🗳️ PollTime - Real-time Polling Web App**
+**# 🗳️ PollRoom - Real-time Polling Web App**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Render](https://img.shields.io/badge/Deploy%20Frontend-Render-00D8FF.svg)](https://render.com) [![Render](https://img.shields.io/badge/Deploy%20Backend-Render-00D8FF.svg)](https://render.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Render](https://img.shields.io/badge/Deploy%20Frontend-Render-00D8FF.svg)](https://render.com) [![Render](https://img.shields.io/badge/Deploy%20Backend-Render-00D8FF.svg)](https://render.com) [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg)](https://pollroom-1.onrender.com/)
 
-**PollTime** is a full-stack, real-time polling application that enables users to create, join, and vote in live polls. Featuring a countdown timer, anonymous voting by name, and live results display, PollTime ensures interactive and engaging polls.
+**PollRoom** is a full-stack, real-time polling application that enables users to create, join, and vote in live polls. Featuring a countdown timer, anonymous voting by name, and live results display, PollRoom ensures interactive and engaging polls.
+
+🔴 **Live Demo:** [https://pollroom-1.onrender.com/](https://pollroom-1.onrender.com/)
 
 ---
 
@@ -30,7 +32,7 @@
 ## 📁 Project Structure
 
 ```bash
-polltime/
+PollRoom/
 │
 ├── client/           # React frontend (Vite + Tailwind)
 │   ├── public/
@@ -47,14 +49,25 @@ polltime/
 └── package.json       # Monorepo dependencies
 ```
 
-### 📸 Screenshots Folder Layout (Optional)
+---
 
-```
-client/public/screenshots/
-├── login.png
-├── poll-view.png
-└── create-poll.png
-```
+## 📸 Screenshots
+
+Login Page
+
+![Login Page](client/public/screenshots/login.png)
+
+Poll View
+
+![Poll View](client/public/screenshots/Live-Poll.png)
+
+Room Code
+
+![Create Poll](client/public/screenshots/Room-Code.png)
+
+Create Poll
+
+![Create Poll](client/public/screenshots/create-poll.png)
 
 ---
 
@@ -63,8 +76,8 @@ client/public/screenshots/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vivek06050/polltime.git
-cd polltime
+git clone https://github.com/vivek06050/PollRoom.git
+cd PollRoom
 ```
 
 ### 2. Run Locally
@@ -85,7 +98,6 @@ npm install
 npm run dev         # Runs on http://localhost:5173
 ```
 
-
 🔗 **WebSocket Configuration**
 
 ```js
@@ -94,7 +106,6 @@ const WS_URL = window.location.hostname === 'localhost'
   ? 'ws://localhost:3001'
   : 'wss://pollroom.onrender.com';
 ```
-
 
 ---
 
