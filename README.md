@@ -36,7 +36,7 @@ PollRoom/
 │
 ├── client/           # React frontend (Vite + Tailwind)
 │   ├── public/
-│   │   └── screenshots/   # Optional screenshots folder
+│   │  
 │   └── src/
 │       ├── components/    # Reusable UI components
 │       ├── hooks/         # Custom React hooks
