@@ -25,7 +25,6 @@
 | React (Vite)    | Node.js          |
 | Tailwind CSS    | WebSocket (ws)   |
 | React Hot Toast | Render (hosting) |
-| React Icons     | Vercel (hosting) |
 
 ---
 
