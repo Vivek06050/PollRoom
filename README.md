@@ -55,19 +55,19 @@ PollRoom/
 
 Login Page
 
-![Login Page](client/public/screenshots/login.png)
+![Login Page](client/public/login.png)
 
 Poll View
 
-![Poll View](client/public/screenshots/Live-Poll.png)
+![Poll View](client/public/Live-Poll.png)
 
 Room Code
 
-![Create Poll](client/public/screenshots/Room-Code.png)
+![Create Poll](client/public/Room-Code.png)
 
 Create Poll
 
-![Create Poll](client/public/screenshots/create-poll.png)
+![Create Poll](client/public/create-poll.png)
 
 ---
 
