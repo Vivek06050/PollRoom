@@ -57,17 +57,19 @@ Login Page
 
 ![Login Page](client/public/Login.png)
 
-Poll View
+Create Poll
 
-![Poll View](client/public/Live-Poll.png)
+![Create Poll](client/public/create-poll.png)
+
 
 Room Code
 
 ![Create Poll](client/public/Room-Code.png)
 
-Create Poll
+Poll View
 
-![Create Poll](client/public/create-poll.png)
+![Poll View](client/public/Live-Poll.png)
+
 
 ---
 
