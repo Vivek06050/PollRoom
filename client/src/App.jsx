@@ -170,7 +170,6 @@ export default function App() {
       </main>
      
       
-     {/* <-- Place this once, at the root of your component tree */}
      <ToastContainer
        position="top-right"
        autoClose={1500}
